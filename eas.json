@@ -1,0 +1,19 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "362510754998-vg5phs5ml5a0c7kcm6f7sndkim6u0ngp.apps.googleusercontent.com"
+      },
+      "android": { "buildType": "apk" }
+    },
+    "standalone": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID": "362510754998-vg5phs5ml5a0c7kcm6f7sndkim6u0ngp.apps.googleusercontent.com"
+      },
+      "android": { "buildType": "apk" }
+    }
+  }
+}
